@@ -3,6 +3,6 @@ max_input_length: 1024
 max_output_length: 256
 train_batch_size: 4
 eval_batch_size: 4
-num_train_epochs: 3
+num_train_epochs: 20
 lr: 5e-5
 lora: true
