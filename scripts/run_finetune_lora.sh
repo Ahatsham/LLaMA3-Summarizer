@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/
 python model/finetune_lora.py
