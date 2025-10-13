@@ -1,5 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
+import pandas as pd
 
 def load_model(model_name):
     tokenizer = AutoTokenizer.from_pretrained(model_name)
