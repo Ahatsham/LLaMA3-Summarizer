@@ -8,7 +8,7 @@ def load_model(model_name):
     return tokenizer, model
 
 def summarize(text, tokenizer, model, max_new_tokens=256):
-    prompt = f"[INST] Summarize the following article:\n\n{text} [/INST]"
+    prompt = f"[INST] Summarize the following article based on the content:\n\n{text} [/INST]"
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
     summary_ids = model.generate(**inputs, max_new_tokens=max_new_tokens)
     return tokenizer.decode(summary_ids[0], skip_special_tokens=True)
