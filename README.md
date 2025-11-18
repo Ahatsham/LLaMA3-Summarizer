@@ -1,4 +1,4 @@
-# 🦙 LLaMA3-Summarizer
+## 🦙 LLaMA3-Summarizer
 
 A high-quality summarization pipeline using Meta's **LLaMA 3** model (8B Instruct variant). This project demonstrates:
 - Zero-shot summarization using prompting
